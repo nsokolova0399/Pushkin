@@ -148,7 +148,8 @@
         width: 100px;
         height: 32px;
         margin-top: 50px;
-        margin-right:30px;
+        margin-left: 100px;
+        display: inline-block;
         background-color: #262626;
         color: #fff;
         text-align: center;
