@@ -28,7 +28,7 @@
       position: fixed;
       width: 100%;
       top:0;
-      left:0;
+      left:0; 
       z-index: 1000;
     }
     .header__content{
@@ -148,8 +148,7 @@
         width: 100px;
         height: 32px;
         margin-top: 50px;
-        margin-left: 170px;
-        display: inline-block;
+        margin-right:30px;
         background-color: #262626;
         color: #fff;
         text-align: center;
