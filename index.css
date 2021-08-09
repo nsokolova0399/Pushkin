@@ -28,7 +28,7 @@
       position: fixed;
       width: 100%;
       top:0;
-      left:0; 
+      left:0;
       z-index: 1000;
     }
     .header__content{
@@ -125,40 +125,55 @@
         margin-right: -8px;
         margin-left: -8px;
       }
-    .rest__form_white{
-        background-color: #fff;
+      .rest__menu {
+        min-height: 204px;
+        background: #ffffff;
+        box-shadow: 0px 0px 16px rgb(117 117 117 / 20%);
+        border-radius: 2px;
+        margin: -250px 0 0 0;
         z-index: index 1;
-        margin-top: -284px;
-        height: 204px;
-        min-height: 180px;
     }
-    .rest__form_title{
-        text-align: center;
-        font-size: 36px;
-        padding-top: 38px;
-    }
-    .rest__form_text1{
-        text-align: left;
-        font-size: 14px;
-        padding-top: 62px;
-        padding-left: 38px;
-        display: inline-block;
-    }
-    .rest__form_Rectangle{
-        width: 100px;
-        height: 32px;
-        margin-top: 10px;
-        margin-left: 150px;
-        display: inline-block;
-        background-color: #262626;
-        color: #fff;
-        text-align: center;
-        border-radius: 16px;
-        font-size: 13px;
-    }
-    .rest__form_Rectangle p{
-        padding-top: 5px;
-    }
+    .rest__title {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 42px;
+      color: #1d1d1d;
+      padding-top: 38px;
+      padding-left: 38px;
+  }
+  .rest__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+.rest__item-1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  height: 16px;
+  color: #626262;
+  margin-left: 40px;
+  letter-spacing: 0.4px;
+}
+.rest__item-2 {
+  width: 100px;
+  height: 32px;
+  background: #262626;
+  border-radius: 16px;
+  margin-right: 32px;
+  display: flex;
+}
+.rest__item-2 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: auto;
+}
  /*REST*/
     /*REST MENU*/
     .rest_menu{
